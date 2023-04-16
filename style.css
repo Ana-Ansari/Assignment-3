@@ -1,0 +1,116 @@
+body {
+    /* display: flex; */
+    /* justify-content: center; */
+    min-height: 100vh;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 1s ease infinite;
+    overflow-x: hidden;
+}
+h1 {
+    text-align: center;
+}
+
+label {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+
+.first-row {
+    float: left;
+    margin: 2em 5em 1em 4em;
+}
+
+.first-row select {
+    border-radius: 10px;
+    width: 300px;
+    padding: 5px 0 5px 0;
+}
+
+#second-row {
+    float: left;
+    margin: 0 0 0 4em;
+}
+
+#second-row select {
+    border-radius: 10px;
+    width: 80%;
+    padding: 5px 0 5px 0;
+}
+
+button {
+    padding: 1em;
+    margin-top: 2em;
+    width: 200px;
+    background-color: rgb(42, 137, 215);
+    border: none;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    margin-bottom: 30px;
+    border-radius: 30px;
+
+}
+
+table {
+    margin-top: 2em;
+    margin: 2em 5em;
+    width: 85%;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    border-collapse: collapse;
+}
+
+th {
+    padding: 0.5em;
+    text-align: center;
+    border-bottom: 1px solid grey;
+}
+
+td {
+    padding: 0.5em;
+    text-align: center;
+    border-bottom: 1px solid grey;
+}
+
+#tableHead {
+    text-align: left;
+    border-bottom: 1px solid;
+}
+
+.image {
+    width: 50px;
+}
+
+#cert {
+    border: 0.5px solid black;
+    width: 50px;
+    margin-top: 5px;
+    float: left;
+}
+
+#title {
+    color: blueviolet;
+    font-size: 24px;
+    text-align: left;
+}
+
+#gen {
+    margin-left: 15px;
+    float: left;
+    text-align: left;
+    margin-top: 5.5px;
+}
+
+#tablebody {
+    text-align: left;
+    border-bottom: 1px solid;
+}
+
+td {
+    padding: 0.5em;
+    text-align: center;
+    border-bottom: 1px solid grey;
+}

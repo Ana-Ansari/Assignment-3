@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./ass-003.js"></script>
+    <title>Movie Recommendation App</title>
+    <script></script>
+</head>
+<body>
+    <header>
+        <h1>Movie Recommendation App</h1>
+    </header>
+
+    <main>
+        <section class="first-row">
+            <label for="genre">GENRE</label><br>
+            <select name="genre" id="genre">
+                <optgroup>
+                    <option value="all">All</option>
+                    <option value="action">Action</option>
+                    <option value="adventure">Adventure</option>
+                    <option value="fantasy">Fantasy</option>
+                    <option value="scifi">Science Fiction</option>
+                    <option value="family">Family</option>
+                    <option value="comedy">Comedy</option>
+                </optgroup>
+            </select>
+        </section>
+
+        <section class="first-row">
+            <label for="year">YEAR</label><br>
+            <select name="year" id="year">
+                <optgroup>
+                    <option value="all">All</option>
+                    <option value="2010">2010</option>
+                    <option value="2011">2011</option>
+                    <option value="2012">2012</option>
+                    <option value="2013">2013</option>
+                    <option value="2014">2014</option>
+                    <option value="2015">2015</option>
+                    <option value="2016">2016</option>
+                    <option value="2017">2017</option>
+                    <option value="2018">2018</option>
+                    <option value="2019">2019</option>
+                    <option value="2020">2020</option>
+                </optgroup>
+            </select>
+        </section>
+
+        <section class="first-row">
+            <label for="language">LANGUAGE</label><br>
+            <select name="language" id="lang">
+                <optgroup>
+                    <option value="all">All</option>
+                    <option value="english">English</option>
+                    <option value="arabic">Arabic</option>
+                    <option value="japanese">Japanese</option>
+                    <option value="spanish">Spanish</option>
+                </optgroup>
+            </select>
+        </section>
+
+        <!-- <section id="second-row">
+            <label for="rating">RATING</label><br>
+            <select name="rating" id="rating">
+                <optgroup>
+                    <option value="all">All</option>
+                    <option value="7.0">7.0</option>
+                    <option value="7.1">7.1</option>
+                    <option value="7.2">7.2</option>
+                    <option value="7.4">7.3</option>
+                    <option value="7.4">7.4</option>
+                    <option value="7.5">7.5</option>
+                    <option value="7.6">7.6</option>
+                    <option value="7.7">7.7</option>
+                    <option value="7.8">7.8</option>
+                    <option value="7.9">7.9</option>
+                    <option value="8.0">8.0</option>
+                </optgroup>
+            </select> -->
+            <br>
+            <button id="searchBtn">Search</button>
+            <br>
+        </section>
+
+        <section>
+            <table>
+                <thead id="tableHead">
+                    <tr>
+                        <th>Rank</th>
+                        <th>Title</th>
+                        <th></th>
+                        <th>Year</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody"></tbody>
+            </table>
+        </section>
+    </main>
+
+</body>
+</html>
